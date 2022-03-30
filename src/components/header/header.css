@@ -1,0 +1,30 @@
+.border {
+  border: 0.5px solid #ccc;
+}
+.flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.secondary_text {
+  line-height: 0.5;
+  color: #ccc;
+  font-size: 1.5rem;
+}
+.main_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1300;
+  background-color: white;
+}
+
+@media (max-width: 1196px) {
+  .header {
+    position: static;
+  }
+}

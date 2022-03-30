@@ -1,0 +1,13 @@
+.card {
+  margin: 50px 0;
+  position: relative !important;
+}
+.description {
+  height: 63px;
+  overflow: hidden;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  position: relative !important;
+  /* border-radius: 5px; */
+}
