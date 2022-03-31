@@ -53,26 +53,32 @@ function Header() {
           </div>
         </Grid>
         {/* 2 */}
-        <Grid container item lg={6} xs={12}>
-          <Grid item lg={3} xs={6} className={"border"}>
-            {" "}
-            <div className={"flex"} style={{ margin: "23px" }}>
-              <p className={"main_text"}>Toys</p>{" "}
-              <GarageIcon
-                style={{ margin: "auto 0", fontSize: "3rem", color: "#da2c37" }}
-              />
-            </div>
-          </Grid>
-          <Grid item lg={3} xs={6} className={"border flex"}>
-            <GridViewIcon />
-            <p className={"main_text "}>Cataloge</p>
-          </Grid>
-          <Grid item lg={3} xs={6} className={"border flex"}>
-            <p className={"main_text"}>characters</p>
-          </Grid>
-          <Grid item lg={3} xs={6} className={"border flex"}>
-            {" "}
-            <p className={"main_text"}>Brand</p>
+        <Grid item lg={6} xs={12}>
+          <Grid container>
+            <Grid item lg={3} xs={6} className={"border"}>
+              {" "}
+              <div className={"flex"} style={{ margin: "23px" }}>
+                <p className={"main_text"}>Toys</p>{" "}
+                <GarageIcon
+                  style={{
+                    margin: "auto 0",
+                    fontSize: "3rem",
+                    color: "#da2c37",
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item lg={3} xs={6} className={"border flex"}>
+              <GridViewIcon />
+              <p className={"main_text "}>Cataloge</p>
+            </Grid>
+            <Grid item lg={3} xs={6} className={"border flex"}>
+              <p className={"main_text"}>characters</p>
+            </Grid>
+            <Grid item lg={3} xs={6} className={"border flex"}>
+              {" "}
+              <p className={"main_text"}>Brand</p>
+            </Grid>
           </Grid>
         </Grid>
         {/* 3 */}

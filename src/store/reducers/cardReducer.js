@@ -1,7 +1,6 @@
 import { actionTypes } from "../actions/actionTypes";
 
 export const cardItemsReducer = (state = { cardItems: [] }, action) => {
-  console.log(state);
   switch (action.type) {
     case actionTypes.DELETE_FROM__CARD:
       state.cardItems.splice(state.cardItems.indexOf(action.payload), 1);

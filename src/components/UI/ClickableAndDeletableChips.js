@@ -13,7 +13,7 @@ export function ClickableAndDeletableChips({ filterBy }) {
   };
 
   return (
-    <Stack direction='row' spacing={1}>
+    <Stack direction='row' spacing={1} style={{ marginRight: "20px" }}>
       <Chip
         sx={{ borderRadius: "5px" }}
         label={filterBy}

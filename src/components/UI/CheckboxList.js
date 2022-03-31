@@ -77,7 +77,7 @@ export function CheckboxList({ title, sideBarDetails }) {
                 />
               </ListItemIcon>
               {sideBarDetails[title] ? (
-                <p>{value}</p>
+                <div>{value}</div>
               ) : (
                 <ListItemText id={labelId} primary={`Line item ${value + 1}`} />
               )}{" "}

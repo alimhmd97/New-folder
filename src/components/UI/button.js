@@ -63,11 +63,9 @@ export function CustomizedButtons() {
       dispatch(filterBYAge(items, 6, 10));
     } else if (filterby.includes("Older than 12 Years old")) {
       dispatch(filterBYAge(items, 12, Infinity));
-      console.log("12");
     }
 
     if (filterby.includes("space(44)")) {
-      // console.log("space");
       dispatch(filterBYTheme(items, "Space"));
     } else if (filterby.includes("Ninja(44)")) {
       dispatch(filterBYTheme(items, "Ninja"));
@@ -78,7 +76,6 @@ export function CustomizedButtons() {
     } else if (filterby.includes("Homes(44)")) {
       dispatch(filterBYTheme(items, "Homes"));
     }
-    console.log(items);
   };
   return (
     <Stack

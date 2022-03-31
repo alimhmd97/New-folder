@@ -45,9 +45,11 @@ const Items = () => {
             />
           </Grid>
         </Grid>
-        {filterBy.map((elem) => {
-          return <ClickableAndDeletableChips filterBy={elem} key={elem} />;
-        })}
+        <div style={{ display: "flex" }}>
+          {filterBy.map((elem) => {
+            return <ClickableAndDeletableChips filterBy={elem} key={elem} />;
+          })}{" "}
+        </div>
       </header>{" "}
       <Grid className={styles.items_container} container spacing={5}>
         {items?.length > 0 ? (
